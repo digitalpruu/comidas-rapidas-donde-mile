@@ -1,9 +1,9 @@
 const title = "Comidas rápidas Dónde Mile";
-const email = ""; // Información no proporcionada
+const email = "comidasrapidasdondemile@gmail.com";
 const mensajeWhatsApp = encodeURIComponent(
-    "¡Hola! Estoy muy interesado en tus productos de " + title + " y me gustaría recibir más información sobre ellos. Espero poder hablar pronto contigo para aclarar algunas dudas. ¡Gracias!"
+    "¡Hola! Estoy interesado en conocer más sobre los productos de " + title + " y me gustaría obtener más información. ¡Gracias!"
 );
-const numeroWhatsApp = ""; // Información no proporcionada
+const numeroWhatsApp = "+573152435540"; // Incluido el prefijo +57
 
 const textos = {
     index: {
@@ -13,8 +13,8 @@ const textos = {
         title: title,
     },
     about: {
-        description1: "Comidas rápidas Dónde Mile ofrece una variedad de comidas rápidas que están diseñadas para satisfacer tus antojos de manera deliciosa y rápida. Nuestro lema, 'Dónde Mile', refleja nuestra dedicación a brindarte comidas rápidas y de calidad.",
-        description2: "En Comidas rápidas Dónde Mile, nos esforzamos por ofrecerte opciones de comida que sean tanto sabrosas como convenientes. Descubre cómo nuestras comidas pueden hacer tu día más fácil y delicioso."
+        description1: "En Comidas rápidas Dónde Mile, nos especializamos en ofrecerte una variedad de deliciosas opciones de comida rápida. Nuestro compromiso es brindar calidad y sabor en cada plato, asegurando que cada cliente disfrute de una experiencia culinaria excepcional.",
+        description2: "Descubre nuestro menú y déjate llevar por el auténtico sabor de nuestras comidas rápidas. En Dónde Mile, cada bocado es una invitación a disfrutar de momentos especiales."
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
@@ -22,14 +22,14 @@ const textos = {
     },
     footer: {
         slogan: {
-            p1: "Dónde Mile",
+            p1: "Donde el sabor se encuentra.",
             p2: ""
         },
         address: "", // Información no proporcionada
         phone: numeroWhatsApp,
         email: email,
-        facebook: "https://www.facebook.com/",
-        instagram: "https://www.instagram.com/",
+        facebook: "https://www.facebook.com/share/SguxZSGj556G7vip/?mibextid=qi2Omg", // Enlace específico de Facebook
+        instagram: "https://www.instagram.com/", // Enlace específico de Instagram
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
     },
 };
