@@ -13,8 +13,10 @@ const textos = {
         title: title,
     },
     about: {
-        description1: "En Comidas rápidas Dónde Mile, nos especializamos en ofrecerte una variedad de deliciosas opciones de comida rápida. Nuestro compromiso es brindar calidad y sabor en cada plato, asegurando que cada cliente disfrute de una experiencia culinaria excepcional.",
-        description2: "Descubre nuestro menú y déjate llevar por el auténtico sabor de nuestras comidas rápidas. En Dónde Mile, cada bocado es una invitación a disfrutar de momentos especiales."
+        description1: "En Comidas Rápidas Dónde Mile, nos dedicamos a ofrecerte una experiencia culinaria rápida y deliciosa. Nuestro menú está diseñado para satisfacer tus antojos con una variedad de opciones que incluyen tus comidas rápidas favoritas, preparadas con ingredientes frescos y de alta calidad.\n" +
+            "Desde hamburguesas jugosas hasta papas fritas crujientes, cada plato está preparado con esmero para ofrecerte un sabor excepcional. Nuestro compromiso es brindarte una comida rápida que no solo sea conveniente, sino también increíblemente sabrosa.\n" +
+            "lónde Mile, entendemos que la comida rápida puede ser sinónimo de calidad. Por eso, nos esforzamos por ofrecerte productos que te hagan volver una y otra vez ¡Ven y disfruta de una comida rápida que realmente vale la pena!\n" +
+            "Te esperamos para que experimentes la mejor comida rápida en Dónde Mile, donde cada bocado es una delicia!"
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
